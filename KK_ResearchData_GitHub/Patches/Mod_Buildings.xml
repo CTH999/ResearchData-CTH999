@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Research Reivented - Stepping Stones -->
+  	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Research Reinvented: Stepping Stones</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+
+        <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="RR_ThinkingSpot"]/comps/li[@Class="CompProperties_AffectedByFacilities"]</xpath>
+            <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="RR_ThinkingSpot"]/comps</xpath>
+            <value>
+                <li Class="CompProperties_AffectedByFacilities">
+                    <linkableFacilities />
+                </li>
+            </value>
+        </nomatch>
+        </li>
+        
+        <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="RR_ThinkingSpot"]/placeWorkers</xpath>
+            <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="RR_ThinkingSpot"]</xpath>
+            <value>
+                <placeWorkers/>
+            </value>
+        </nomatch>
+        </li>
+        
+        <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="RR_ThinkingSpot"]/placeWorkers/li[text()="PlaceWorker_ShowFacilitiesConnections"]</xpath>
+            <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="RR_ThinkingSpot"]/placeWorkers</xpath>
+                <value>
+                    <li>PlaceWorker_ShowFacilitiesConnections</li>
+                </value>
+        </nomatch>
+        </li>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="RR_ThinkingSpot"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+				<li>ResearchSampleBench</li>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "RR_ThinkingSpot"]</xpath>
+		  <value>
+			<comps>
+			  <li Class="CompProperties_Refuelable">
+				<fuelLabel>Research Papers</fuelLabel>
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+				<fuelCapacity>1.0</fuelCapacity>
+				<fuelFilter>
+				  <thingDefs>
+					<li>ResearchPapers</li>
+				  </thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			  </li>
+			</comps>
+		  </value>
+		</li>
+		
+		</operations>
+		</match>
+	</Operation>
+
+<!-- Gloomy Furniture - Simple Research Bench -->
+  	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>GloomyFurniture</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="RGK_SimpleResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+				<li>ResearchSampleBench</li>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "RGK_SimpleResearchBench"]</xpath>
+		  <value>
+			<comps>
+			  <li Class="CompProperties_Refuelable">
+				<fuelLabel>Research Papers</fuelLabel>
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+				<fuelCapacity>1.0</fuelCapacity>
+				<fuelFilter>
+				  <thingDefs>
+					<li>ResearchPapers</li>
+				  </thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			  </li>
+			</comps>
+		  </value>
+		</li>
+		
+		</operations>
+		</match>
+	</Operation>
+	
+<!-- Rim-Effect: Core -->
+  	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim-Effect: Core</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="RE_SpacerTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+				<li>ResearchSampleBench</li>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "RE_SpacerTechResearchBench"]</xpath>
+		  <value>
+			<comps>
+			  <li Class="CompProperties_Refuelable">
+				<fuelLabel>Research Data</fuelLabel>
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+				<fuelCapacity>1.0</fuelCapacity>
+				<fuelFilter>
+				  <thingDefs>
+					<li>ResearchData</li>
+				  </thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			  </li>
+			</comps>
+		  </value>
+		</li>
+		
+		</operations>
+		</match>
+	</Operation>
+
+<!-- Research Spot (Continued) -->
+  	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Research Spot (Continued)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+		
+		<li Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ResearchSpot"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ResearchSpot"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+		</li>
+		
+		<li Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ResearchSpot"]/comps/li[@Class="CompProperties_AffectedByFacilities"]</xpath>
+			<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ResearchSpot"]/comps</xpath>
+			<value>
+				<li Class="CompProperties_AffectedByFacilities">
+					<linkableFacilities />
+				</li>
+			</value>
+		</nomatch>
+		</li>
+		
+		<li Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ResearchSpot"]/placeWorkers</xpath>
+			<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ResearchSpot"]</xpath>
+			<value>
+				<placeWorkers/>
+			</value>
+		</nomatch>
+		</li>
+		
+		<li Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ResearchSpot"]/placeWorkers/li[text()="PlaceWorker_ShowFacilitiesConnections"]</xpath>
+			<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ResearchSpot"]/placeWorkers</xpath>
+				<value>
+					<li>PlaceWorker_ShowFacilitiesConnections</li>
+				</value>
+		</nomatch>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ResearchSpot"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+				<li>ResearchSampleBench</li>
+			</value>
+		</li>
+				
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "ResearchSpot"]</xpath>
+		  <value>
+			<comps>
+			  <li Class="CompProperties_Refuelable">
+				<fuelLabel>Research Papers</fuelLabel>
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+				<fuelCapacity>1.0</fuelCapacity>
+				<fuelFilter>
+				  <thingDefs>
+					<li>ResearchPapers</li>
+				  </thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			  </li>
+			</comps>
+		  </value>
+		</li>
+		
+		</operations>
+		</match>
+	</Operation>
+	
+<!-- More Linkables -->
+  	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>More Linkables</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+			
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "AdvancedMultiAnalyzer"]</xpath>
+		  <value>
+				<tickerType>Normal</tickerType>
+		  </value>
+    </li>
+	
+    <li Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "AdvancedMultiAnalyzer"]/comps</xpath>
+		  <value>
+			  <li Class="CompProperties_Refuelable">
+				<fuelLabel>Analyzer Data</fuelLabel>
+				<fuelConsumptionRate>0.33</fuelConsumptionRate>
+				<fuelCapacity>1</fuelCapacity>
+				<fuelFilter>
+				  <thingDefs>
+					<li>AnalyzerData</li>
+				  </thingDefs>
+				</fuelFilter>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			  </li>
+		  </value>
+    </li>
+	
+    <li Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName = "AdvancedMultiAnalyzer"]</xpath>
+		  <value>
+			<li Class="ResearchData.FuelExtension">
+				<stopWhenPowerIsOff>True</stopWhenPowerIsOff>
+				<facilityNotActiveWhenFuelEmpty>True</facilityNotActiveWhenFuelEmpty>
+			</li>
+		  </value>
+    </li>
+		
+		</operations>
+		</match>
+	</Operation>
+	
+<!-- Primitive Workbenches -->
+  	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Primitive Workbenches</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VBY_PrimitiveResearchTable"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+				<li>ResearchSampleBench</li>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VBY_PrimitiveResearchSpot"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+				<li>ResearchSampleBench</li>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "VBY_PrimitiveResearchTable"]</xpath>
+		  <value>
+			<comps>
+			  <li Class="CompProperties_Refuelable">
+				<fuelLabel>Research Papers</fuelLabel>
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+				<fuelCapacity>1.0</fuelCapacity>
+				<fuelFilter>
+				  <thingDefs>
+					<li>ResearchPapers</li>
+				  </thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			  </li>
+			</comps>
+		  </value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "VBY_PrimitiveResearchSpot"]</xpath>
+		  <value>
+			<comps>
+			  <li Class="CompProperties_Refuelable">
+				<fuelLabel>Research Papers</fuelLabel>
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+				<fuelCapacity>1.0</fuelCapacity>
+				<fuelFilter>
+				  <thingDefs>
+					<li>ResearchPapers</li>
+				  </thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			  </li>
+			</comps>
+		  </value>
+		</li>
+		
+		</operations>
+		</match>
+	</Operation>
+
+</Patch>

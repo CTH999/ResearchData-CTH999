@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- RecipeDef -->
+<LanguageData>
+  <!-- EN: Make Biology Schematics -->
+  <BiologySchematicsRecipe.label>制作生物学图表</BiologySchematicsRecipe.label>
+  <!-- EN: Biology schematics are helpful when doing research, as they give a better research understanding for a time when read. They come in 3 types and stack with each other.\n\nSchematics works with the drug policy system but without any negative sides besides the cost, as they are expansive but can give a huge bonus to your research if stacked together. -->
+  <BiologySchematicsRecipe.description>生物学图表在做研究时很有帮助，因为阅读他们能获得更好的研究理解。它们有三种类型，并可以相互叠加。\n\n原理图在药物方案系统内起作用（和药物一样使用），除了成本消耗以外没有任何负面效果，尽管它们是昂贵的，但一同使用可以给你的研究带来巨大的好处。</BiologySchematicsRecipe.description>
+  <!-- EN: Makeing Biology Schematics. -->
+  <BiologySchematicsRecipe.jobString>制作生物学图表中。</BiologySchematicsRecipe.jobString>
+  <!-- EN: Make Clinical Schematics -->
+  <ClinicalSchematicsRecipe.label>制作临床试验图表</ClinicalSchematicsRecipe.label>
+  <!-- EN: Clinical schematics are helpful when doing research, as they give a better research understanding for a time when read. They come in 3 types and stack with each other.\n\nSchematics works with the drug policy system but without any negative sides besides the cost, as they are expansive but can give a huge bonus to your research if stacked together. -->
+  <ClinicalSchematicsRecipe.description>临床试验图表在做研究时很有帮助，因为阅读他们能获得更好的研究理解。它们有三种类型，并可以相互叠加。\n\n原理图在药物方案系统内起作用（和药物一样使用），除了成本消耗以外没有任何负面效果，尽管它们是昂贵的，但一同使用可以给你的研究带来巨大的好处。</ClinicalSchematicsRecipe.description>
+  <!-- EN: Makeing Clinical Schematics. -->
+  <ClinicalSchematicsRecipe.jobString>制作临床试验图表中。</ClinicalSchematicsRecipe.jobString>
+  <!-- EN: Make Engineering Schematics -->
+  <EngineeringSchematicsRecipe.label>制作工程图表</EngineeringSchematicsRecipe.label>
+  <!-- EN: Engineering schematics are helpful when doing research, as they give a better research understanding for a time when read. They come in 3 types and stack with each other.\n\nSchematics works with the drug policy system but without any negative sides besides the cost, as they are expansive but can give a huge bonus to your research if stacked together. -->
+  <EngineeringSchematicsRecipe.description>工程图表在做研究时很有帮助，因为阅读他们能获得更好的研究理解。它们有三种类型，并可以相互叠加。\n\n原理图在药物方案系统内起作用（和药物一样使用），除了成本消耗以外没有任何负面效果，尽管它们是昂贵的，但一同使用可以给你的研究带来巨大的好处。</EngineeringSchematicsRecipe.description>
+  <!-- EN: Makeing Engineering Schematics. -->
+  <EngineeringSchematicsRecipe.jobString>制作工程图表中。</EngineeringSchematicsRecipe.jobString>
+</LanguageData>

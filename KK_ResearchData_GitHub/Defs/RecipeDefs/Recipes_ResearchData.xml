@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Write - Research Papers -->
+  <RecipeDef>
+    <defName>ResearchPapersRecipe</defName>
+    <label>Write Research Papers</label>
+    <description>Research Papers are used for simple research and is written by examining one of the 3 basic research samples.\n\nResearch papers last 24 hours when doing simple research.</description>
+    <jobString>Writing Research Papers.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Interact_Research</soundWorking>
+	<ingredients>
+      <li>
+        <filter>
+			<thingDefs>
+				<li>OrganicResearchSamples</li>
+				<li>MetallicResearchSamples</li>
+				<li>FabricResearchSamples</li>
+			</thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>OrganicResearchSamples</li>
+				<li>MetallicResearchSamples</li>
+				<li>FabricResearchSamples</li>
+			</thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ResearchPapers>1</ResearchPapers>
+    </products>
+	<recipeUsers>
+		<li>ResearchSampleBench</li>
+	</recipeUsers>
+	<workSkill>Intellectual</workSkill>
+	<skillRequirements>
+      <Intellectual>1</Intellectual>
+    </skillRequirements>
+  </RecipeDef> 
+  
+	<!-- Assemble - Research Data -->
+  <RecipeDef>
+    <defName>ResearchDataRecipe</defName>
+    <label>Assemble Research Data</label>
+    <description>Research Data are used for high-tech research and is Assemble with steel, silver and all 3 basic research samples.\n\nResearch data last 24 hours when doing high-tech research.</description>
+    <jobString>Assembling Research Data.</jobString>
+    <workAmount>800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OrganicResearchSamples</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MetallicResearchSamples</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FabricResearchSamples</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>OrganicResearchSamples</li>
+        <li>MetallicResearchSamples</li>
+        <li>FabricResearchSamples</li>
+        <li>Steel</li>
+        <li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <products>
+      <ResearchData>1</ResearchData>
+    </products>
+	<recipeUsers>
+		<li>ResearchSampleBench</li>
+	</recipeUsers>
+	<workSkill>Intellectual</workSkill>
+	<skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+  </RecipeDef> 
+  
+	<!-- Assemble - Analyzer Data -->
+  <RecipeDef>
+    <defName>AnalyzerDataRecipe</defName>
+    <label>Assemble Analyzer Data</label>
+    <description>Analyzer Data are required for the multi-analyzer to function. Its expansive, and use gold and all 4 types og research samples.\n\nAnalyzer Data last 3 days when being researched at the multi-analyzer.</description>
+    <jobString>Assembling Analyzer Data.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OrganicResearchSamples</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MetallicResearchSamples</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FabricResearchSamples</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentResearchSamples</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>OrganicResearchSamples</li>
+        <li>MetallicResearchSamples</li>
+        <li>FabricResearchSamples</li>
+		<li>ComponentResearchSamples</li>
+        <li>Steel</li>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<researchPrerequisites>
+      <li>MultiAnalyzer</li>
+    </researchPrerequisites>
+    <products>
+      <AnalyzerData>1</AnalyzerData>
+    </products>
+	<recipeUsers>
+		<li>ResearchSampleBench</li>
+	</recipeUsers>
+	<workSkill>Intellectual</workSkill>
+	<skillRequirements>
+      <Intellectual>8</Intellectual>
+    </skillRequirements>
+  </RecipeDef> 
+
+	<!-- Extract - Archotech Data -->
+  <RecipeDef>
+    <defName>ArchotechDataRecipe</defName>
+    <label>Extract Archotech Data</label>
+    <description>Archotech data can only be found, rewarded, or extracted from rare artifacts. Archotech data are required for the archotech analyzer to function when doing research.\n\nArchotech data last 3 days when being researched at the archotech analyzer.</description>
+    <jobString>Extracting Archotech Data.</jobString>
+    <workAmount>4000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Artifacts</li>
+      </categories>
+	  <thingDefs>
+		<li>Apparel_PsychicShockLance</li>
+		<li>Apparel_PsychicInsanityLance</li>
+		<li>AIPersonaCore</li>
+	  </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Artifacts</li>
+          </categories>
+		  <thingDefs>
+			<li>Apparel_PsychicShockLance</li>
+			<li>Apparel_PsychicInsanityLance</li>
+			<li>AIPersonaCore</li>
+		  </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+	<researchPrerequisites>
+      <li>MultiAnalyzer</li>
+    </researchPrerequisites>
+    <products>
+      <ArchotechData>1</ArchotechData>
+    </products>
+	<recipeUsers>
+		<li>ResearchSampleBench</li>
+	</recipeUsers>
+	<workSkill>Intellectual</workSkill>
+	<skillRequirements>
+	  <Crafting>6</Crafting>
+      <Intellectual>10</Intellectual>
+    </skillRequirements>
+  </RecipeDef> 
+
+</Defs>

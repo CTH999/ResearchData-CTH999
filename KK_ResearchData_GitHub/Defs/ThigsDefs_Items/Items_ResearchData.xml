@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--=============== Research Papers ====================-->
+   <ThingDef ParentName="ResourceBase">
+    <defName>ResearchPapers</defName>
+    <label>Research Papers</label>
+    <description>Research Papers are used for simple research and is written by examining one of the 3 basic research samples.\n\nResearch papers last 24 hours when doing simple research.</description>
+    <graphicData>
+      <texPath>ResearchPapers</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <techLevel>Neolithic</techLevel>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>18</MarketValue>
+      <Mass>0.024</Mass>
+      <Flammability>2.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>Research</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!--=============== Research Data ====================-->
+   <ThingDef ParentName="ResourceBase">
+    <defName>ResearchData</defName>
+    <label>Research Data</label>
+    <description>Research Data are used for high-tech research and is Assemble with steel, silver and all 3 basic research samples.\n\nResearch data last 24 hours when doing high-tech research.</description>
+    <graphicData>
+      <texPath>ResearchData</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <techLevel>Industrial</techLevel>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>80</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>Research</li>
+    </thingCategories>
+  </ThingDef>
+ 
+  <!--=============== Analyzer Data ====================-->
+   <ThingDef ParentName="ResourceBase">
+    <defName>AnalyzerData</defName>
+    <label>Analyzer Data</label>
+    <description>Analyzer Data are required for the multi-analyzer to function. Its expansive, and use gold and all 4 types og research samples.\n\nAnalyzer Data last 3 days when being researched at the multi-analyzer.</description>
+    <graphicData>
+      <texPath>AnalyzerData</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <techLevel>Industrial</techLevel>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>220</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>Research</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!--=============== Archotech Data ====================-->
+   <ThingDef ParentName="ResourceBase">
+    <defName>ArchotechData</defName>
+    <label>Archotech Data</label>
+    <description>Archotech data can only be found, rewarded, or extracted from rare artifacts. Archotech data are required for the archotech analyzer to function when doing research.\n\nArchotech data last 3 days when being researched at the archotech analyzer.</description>
+    <graphicData>
+      <texPath>ArchotechData</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <techLevel>Archotech</techLevel>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>600</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>Research</li>
+    </thingCategories>
+  </ThingDef>
+  
+</Defs>

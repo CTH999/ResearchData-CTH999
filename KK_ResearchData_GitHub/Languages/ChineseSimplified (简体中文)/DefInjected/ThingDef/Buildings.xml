@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- ThingDef -->
+<LanguageData>
+  <!-- EN: Research Sample Bench -->
+  <ResearchSampleBench.label>研究样品台</ResearchSampleBench.label>
+  <!-- EN: The research samples bench is used to collect research samples to write research papers and assemble research data that is needed to do any research. Links to research benches: +10% research bonus. -->
+  <ResearchSampleBench.description>研究样本工作台是用来收集研究样本来撰写研究论文和汇编研究数据，任何研究工作都需要这个建筑。链接到研究工作台: +10%研究加成。</ResearchSampleBench.description>
+  <!-- EN: Archotech Analyzer -->
+  <ArchotechAnalyzer.label>超凡科技分析仪</ArchotechAnalyzer.label>
+  <!-- EN: The Archotech Analyzer is a very high-tech reconstruction of the Analyzer modul, combind with archotech data. It uses Archotech Data when build and to function, constantly use data at all time, giving a huge +50% research bonus when active. -->
+  <ArchotechAnalyzer.description>超凡科技分析仪是一个非常高科技的分析器模块的重建，与超凡科技数据相结合。它在构建和运行时会使用超凡科技数据，每时每刻都在都不断使用数据，在运行时提供巨大的+50%研究加成。</ArchotechAnalyzer.description>
+  <!-- EN: Archotech Data -->
+  <ArchotechAnalyzer.comps.3.fuelLabel>超凡科技数据</ArchotechAnalyzer.comps.3.fuelLabel>
+</LanguageData>

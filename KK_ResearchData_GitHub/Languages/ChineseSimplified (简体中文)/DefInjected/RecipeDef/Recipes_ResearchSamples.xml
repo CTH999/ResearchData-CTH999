@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- RecipeDef -->
+<LanguageData>
+  <!-- EN: Collect Organic Research Samples -->
+  <OrganicResearchSamplesRecipe.label>收集生物研究样本</OrganicResearchSamplesRecipe.label>
+  <!-- EN: Organic research samples are collected from organic nutrition, to use and examined when writing research papers or assembling research data. -->
+  <OrganicResearchSamplesRecipe.description>生物研究样本是从生物营养质中收集的，在撰写研究论文或汇编研究数据时使用和查阅。</OrganicResearchSamplesRecipe.description>
+  <!-- EN: Collecting Organic Research Samples. -->
+  <OrganicResearchSamplesRecipe.jobString>收集生物研究样本中。</OrganicResearchSamplesRecipe.jobString>
+  <!-- EN: Collect Metallic Research Samples -->
+  <MetallicResearchSamplesRecipe.label>收集金属研究样本</MetallicResearchSamplesRecipe.label>
+  <!-- EN: Metallic research samples are collected from metallic resources, to use and examined when writing research papers or assembling research data. -->
+  <MetallicResearchSamplesRecipe.description>金属研究样本是从金属资源中收集的，在撰写研究论文或汇编研究数据时使用和查阅。</MetallicResearchSamplesRecipe.description>
+  <!-- EN: Collecting Metallic Research Samples. -->
+  <MetallicResearchSamplesRecipe.jobString>收集金属研究样本中。</MetallicResearchSamplesRecipe.jobString>
+  <!-- EN: Collect Fabric Research Samples -->
+  <FabricResearchSamplesRecipe.label>收集织物研究样本</FabricResearchSamplesRecipe.label>
+  <!-- EN: Fabric research samples are collected from cloth and leather fabrics, to use and examined when writing research papers or assembling research data. -->
+  <FabricResearchSamplesRecipe.description>织物研究样本是从布料和皮革织物中收集的，在撰写研究论文或汇编研究数据时使用和查阅。</FabricResearchSamplesRecipe.description>
+  <!-- EN: Collecting Fabric Research Samples. -->
+  <FabricResearchSamplesRecipe.jobString>收集织物研究样本中。</FabricResearchSamplesRecipe.jobString>
+  <!-- EN: Collect Component Research Samples -->
+  <ComponentResearchSamplesRecipe.label>收集零部件研究样本</ComponentResearchSamplesRecipe.label>
+  <!-- EN: Component research samples are collected from Industrial components, to use and examined when assembling research data. -->
+  <ComponentResearchSamplesRecipe.description>零部件研究样本是从工业零部件中收集的，在组装汇编数据时使用和查阅。</ComponentResearchSamplesRecipe.description>
+  <!-- EN: Collecting Component Research Samples. -->
+  <ComponentResearchSamplesRecipe.jobString>收集零部件研究样本中。</ComponentResearchSamplesRecipe.jobString>
+  <!-- EN: Expert - Collect Organic Research Samples x2 -->
+  <OrganicResearchSamplesExpertRecipe.label>专家-收集生物研究样本x2</OrganicResearchSamplesExpertRecipe.label>
+  <!-- EN: Organic Research Samples are collected from organic nutrition, to use and examined when writing research papers or assembling research data. -->
+  <OrganicResearchSamplesExpertRecipe.description>生物研究样本是从生物营养质中收集的，在撰写研究论文或汇编研究数据时使用和查阅。</OrganicResearchSamplesExpertRecipe.description>
+  <!-- EN: Collecting Organic Research Samples. -->
+  <OrganicResearchSamplesExpertRecipe.jobString>收集生物研究样本中。</OrganicResearchSamplesExpertRecipe.jobString>
+  <!-- EN: Expert - Collect Metallic Research Samples x2 -->
+  <MetallicResearchSamplesExpertRecipe.label>专家-收集金属研究样本x2</MetallicResearchSamplesExpertRecipe.label>
+  <!-- EN: Metallic research samples are collected from metallic resources, to use and examined when writing research papers or assembling research data. -->
+  <MetallicResearchSamplesExpertRecipe.description>金属研究样本是从金属资源中收集的，在撰写研究论文或汇编研究数据时使用和查阅。</MetallicResearchSamplesExpertRecipe.description>
+  <!-- EN: Collecting Metallic Research Samples. -->
+  <MetallicResearchSamplesExpertRecipe.jobString>收集金属研究样本中。</MetallicResearchSamplesExpertRecipe.jobString>
+  <!-- EN: Expert - Collect Fabric Research Samples x2 -->
+  <FabricResearchSamplesExpertRecipe.label>专家-收集织物研究样本x2</FabricResearchSamplesExpertRecipe.label>
+  <!-- EN: Fabric research samples are collected from cloth and leather fabrics, to use and examined when writing research papers or assembling research data. -->
+  <FabricResearchSamplesExpertRecipe.description>织物研究样本是从布料和皮革织物中收集的，在撰写研究论文或汇编研究数据时使用和查阅。</FabricResearchSamplesExpertRecipe.description>
+  <!-- EN: Collecting Fabric Research Samples. -->
+  <FabricResearchSamplesExpertRecipe.jobString>收集织物研究样本中。</FabricResearchSamplesExpertRecipe.jobString>
+  <!-- EN: Expert - Collect Fabric Research Samples x2 -->
+  <ComponentResearchSamplesExpertRecipe.label>专家-收集零部件研究样本x2</ComponentResearchSamplesExpertRecipe.label>
+  <!-- EN: Component research samples are collected from Industrial components, to use and examined when assembling research data. -->
+  <ComponentResearchSamplesExpertRecipe.description>零部件研究样本是从工业零部件中收集的，在汇编研究数据时使用和查阅。</ComponentResearchSamplesExpertRecipe.description>
+  <!-- EN: Collecting Component Research Samples. -->
+  <ComponentResearchSamplesExpertRecipe.jobString>收集零部件研究样本中。</ComponentResearchSamplesExpertRecipe.jobString>
+</LanguageData>

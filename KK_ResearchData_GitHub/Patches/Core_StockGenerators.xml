@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--============ Research Paper - StockGenerator =================-->
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Neolithic_Standard" or defName="Base_Outlander_Standard" or defName="Caravan_Neolithic_BulkGoods" or defName="Caravan_Neolithic_ShamanMerchant" or defName="Caravan_Outlander_BulkGoods" or defName="Caravan_Outlander_Exotic" or defName="Orbital_BulkGoods" or defName="Orbital_Exotic"]/stockGenerators</xpath>
+		<value>	
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ResearchPapers</thingDef>
+				<countRange>3~7</countRange>
+			</li>			
+		</value>
+	</Operation>
+	
+<!--============ Research Data - StockGenerator =================-->
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard" or defName="Caravan_Outlander_BulkGoods" or defName="Caravan_Outlander_Exotic" or defName="Orbital_BulkGoods" or defName="Orbital_Exotic"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ResearchData</thingDef>
+				<countRange>1~4</countRange>
+			</li>			
+		</value>
+	</Operation>
+	
+<!--============ Analyzer Data - StockGenerator =================-->
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard" or defName="Caravan_Outlander_Exotic" or defName="Orbital_BulkGoods" or defName="Orbital_Exotic"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>AnalyzerData</thingDef>
+				<countRange>0~2</countRange>
+			</li>			
+		</value>
+	</Operation>
+	
+<!--============ Archotech Data - StockGenerator =================-->
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard" or defName="Caravan_Outlander_Exotic" or defName="Orbital_Exotic"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ArchotechData</thingDef>
+				<countRange>0~1</countRange>
+			</li>			
+		</value>
+	</Operation>
+	
+<!--============ Research Samples Basic - StockGenerator =================-->
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Neolithic_Standard" or defName="Base_Outlander_Standard" or defName="Caravan_Neolithic_BulkGoods" or defName="Caravan_Neolithic_ShamanMerchant" or defName="Caravan_Outlander_BulkGoods" or defName="Caravan_Outlander_Exotic" or defName="Orbital_BulkGoods" or defName="Orbital_Exotic"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OrganicResearchSamples</thingDef>
+				<countRange>1~6</countRange>
+			</li>	
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MetallicResearchSamples</thingDef>
+				<countRange>1~6</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>FabricResearchSamples</thingDef>
+				<countRange>1~6</countRange>
+			</li>			
+		</value>
+	</Operation>
+	
+<!--============ Research Samples Component - StockGenerator =================-->
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard" or defName="Caravan_Outlander_BulkGoods" or defName="Caravan_Outlander_Exotic" or defName="Orbital_BulkGoods" or defName="Orbital_Exotic"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentResearchSamples</thingDef>
+				<countRange>1~4</countRange>
+			</li>				
+		</value>
+	</Operation>
+	
+<!--============ Schematics - StockGenerator =================-->
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard" or defName="Caravan_Outlander_Exotic" or defName="Orbital_BulkGoods" or defName="Orbital_Exotic"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_Category">
+				<categoryDef>Schematics</categoryDef>
+				<thingDefCountRange>0~3</thingDefCountRange>
+				<totalPriceRange>160~320</totalPriceRange>
+			</li>			
+		</value>
+	</Operation>
+  
+</Patch>
