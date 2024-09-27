@@ -1,3 +1,5 @@
 this is for moving the files, as they don't seem to be in a form that can be edited.
 
 it's been done multiple ways:
+transfered files from outside github (from steam download)
+transfered from github
