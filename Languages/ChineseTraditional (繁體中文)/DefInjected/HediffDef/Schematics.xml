@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- HediffDef -->
+<LanguageData>
+  <!-- EN: Biology Schematics -->
+  <BiologySchematicsBonus.label>生物學圖表</BiologySchematicsBonus.label>
+  <!-- EN: a biology schematic -->
+  <BiologySchematicsBonus.labelNoun>一份生物學圖表</BiologySchematicsBonus.labelNoun>
+  <!-- EN: Biology schematics are helpful when doing research, as they give a better research understanding for a time when read. They come in 3 types and stack with each other.\n\nSchematics works with the drug policy system but without any negative sides besides the cost, as they are expansive but can give a huge bonus to your research if stacked together. -->
+  <BiologySchematicsBonus.description>生物學圖表在做研究時很有幫助，因為閱讀他們能獲得更好的研究理解。它們有三種類型，並可以相互疊加。 \n\n原理圖在藥物方案系統內起作用（和藥物一樣使用），除了成本消耗以外沒有任何負面效果，儘管它們是昂貴的，但一同使用可以給你的研究帶來巨大的好處。 </BiologySchematicsBonus.description>
+  <!-- EN: Clinical Schematics -->
+  <ClinicalSchematicsBonus.label>臨床試驗圖表</ClinicalSchematicsBonus.label>
+  <!-- EN: a clinical schematic -->
+  <ClinicalSchematicsBonus.labelNoun>一份臨床試驗圖表</ClinicalSchematicsBonus.labelNoun>
+  <!-- EN: Clinical schematics are helpful when doing research, as they give a better research understanding for a time when read. They come in 3 types and stack with each other.\n\nSchematics works with the drug policy system but without any negative sides besides the cost, as they are expansive but can give a huge bonus to your research if stacked together. -->
+  <ClinicalSchematicsBonus.description>臨床試驗圖表在做研究時很有幫助，因為閱讀他們能獲得更好的研究理解。它們有三種類型，並可以相互疊加。 \n\n原理圖在藥物方案系統內起作用（和藥物一樣使用），除了成本消耗以外沒有任何負面效果，儘管它們是昂貴的，但一同使用可以給你的研究帶來巨大的好處。 </ClinicalSchematicsBonus.description>
+  <!-- EN: Engineering Schematics -->
+  <EngineeringSchematicsBonus.label>工程圖表</EngineeringSchematicsBonus.label>
+  <!-- EN: a engineering schematic -->
+  <EngineeringSchematicsBonus.labelNoun>一份工程圖表</EngineeringSchematicsBonus.labelNoun>
+  <!-- EN: Engineering schematics are helpful when doing research, as they give a better research understanding for a time when read. They come in 3 types and stack with each other.\n\nSchematics works with the drug policy system but without any negative sides besides the cost, as they are expansive but can give a huge bonus to your research if stacked together. -->
+  <EngineeringSchematicsBonus.description>工程圖表在做研究時很有幫助，因為閱讀他們能獲得更好的研究理解。它們有三種類型，並可以相互疊加。 \n\n原理圖在藥物方案系統內起作用（和藥物一樣使用），除了成本消耗以外沒有任何負面效果，儘管它們是昂貴的，但一同使用可以給你的研究帶來巨大的好處。 </EngineeringSchematicsBonus.description>
+</LanguageData>

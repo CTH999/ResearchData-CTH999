@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Biology Schematics -->
+  <BiologySchematicsBonus.label>Биологические схемы</BiologySchematicsBonus.label>
+  <!-- EN: Biology schematics are helpful when doing research, as they give a better research understanding for a time when read. They come in 3 types and stack with each other.\n\nSchematics works with the drug policy system but without any negative sides besides the cost, as they are expansive but can give a huge bonus to your research if stacked together. -->
+  <BiologySchematicsBonus.description>Биологические схемы дают лучшее понимание исследований в течение некоторого времени после их анализа. Всего существует 3 типа схем и эффекты от них могут складываться вместе.\n\nСхемы работают через систему приёма лекарств и наркотиков, но без каких-либо негативных последствий. Единственный их недостаток — высокая стоимость. Но она вполне оправдана большим бонусом к скорости исследований, которые дают схемы, если их сложить вместе.</BiologySchematicsBonus.description>
+  <!-- EN: a biology schematic -->
+  <BiologySchematicsBonus.labelNoun>биологические схемы</BiologySchematicsBonus.labelNoun>
+  
+  <!-- EN: Clinical Schematics -->
+  <ClinicalSchematicsBonus.label>Клинические схемы</ClinicalSchematicsBonus.label>
+  <!-- EN: Clinical schematics are helpful when doing research, as they give a better research understanding for a time when read. They come in 3 types and stack with each other.\n\nSchematics works with the drug policy system but without any negative sides besides the cost, as they are expansive but can give a huge bonus to your research if stacked together. -->
+  <ClinicalSchematicsBonus.description>Клинические схемы дают лучшее понимание исследований в течение некоторого времени после их анализа. Всего существует 3 типа схем и эффекты от них могут складываться вместе.\n\nСхемы работают через систему приёма лекарств и наркотиков, но без каких-либо негативных последствий. Единственный их недостаток — высокая стоимость. Но она вполне оправдана большим бонусом к скорости исследований, которые дают схемы, если их сложить вместе.</ClinicalSchematicsBonus.description>
+  <!-- EN: a clinical schematic -->
+  <ClinicalSchematicsBonus.labelNoun>клинические схемы</ClinicalSchematicsBonus.labelNoun>
+  
+  <!-- EN: Engineering Schematics -->
+  <EngineeringSchematicsBonus.label>Инженерные схемы</EngineeringSchematicsBonus.label>
+  <!-- EN: Engineering schematics are helpful when doing research, as they give a better research understanding for a time when read. They come in 3 types and stack with each other.\n\nSchematics works with the drug policy system but without any negative sides besides the cost, as they are expansive but can give a huge bonus to your research if stacked together. -->
+  <EngineeringSchematicsBonus.description>Инженерные схемы дают лучшее понимание исследований в течение некоторого времени после их анализа. Всего существует 3 типа схем и эффекты от них могут складываться вместе.\n\nСхемы работают через систему приёма лекарств и наркотиков, но без каких-либо негативных последствий. Единственный их недостаток — высокая стоимость. Но она вполне оправдана большим бонусом к скорости исследований, которые дают схемы, если их сложить вместе.</EngineeringSchematicsBonus.description>
+  <!-- EN: a engineering schematic -->
+  <EngineeringSchematicsBonus.labelNoun>инженерные схемы</EngineeringSchematicsBonus.labelNoun>
+  
+</LanguageData>

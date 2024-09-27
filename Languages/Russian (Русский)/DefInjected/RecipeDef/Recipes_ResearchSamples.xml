@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Expert - Collect Component Research Samples x2 -->
+  <ComponentResearchSamplesExpertRecipe.label>собрать образцы компонентов x2</ComponentResearchSamplesExpertRecipe.label>
+  <!-- EN: Component research samples are collected from Industrial components, to use and examined when assembling research data. -->
+  <ComponentResearchSamplesExpertRecipe.description>Образцы индустриальных компонентов, собранные из их составных частей. Используются при написании исследовательских работ или сборке исследовательских данных.</ComponentResearchSamplesExpertRecipe.description>
+  <!-- EN: Collecting Component Research Samples. -->
+  <ComponentResearchSamplesExpertRecipe.jobString>Собирает образцы компонентов.</ComponentResearchSamplesExpertRecipe.jobString>
+  
+  <!-- EN: Collect Component Research Samples -->
+  <ComponentResearchSamplesRecipe.label>собрать образцы компонентов</ComponentResearchSamplesRecipe.label>
+  <!-- EN: Component research samples are collected from Industrial components, to use and examined when assembling research data. -->
+  <ComponentResearchSamplesRecipe.description>Образцы индустриальных компонентов, собранные из их составных частей. Используются при написании исследовательских работ или сборке исследовательских данных.</ComponentResearchSamplesRecipe.description>
+  <!-- EN: Collecting Component Research Samples. -->
+  <ComponentResearchSamplesRecipe.jobString>Собирает образцы компонентов.</ComponentResearchSamplesRecipe.jobString>
+  
+  <!-- EN: Expert - Collect Fabric Research Samples x2 -->
+  <FabricResearchSamplesExpertRecipe.label>собрать образцы ткани x2</FabricResearchSamplesExpertRecipe.label>
+  <!-- EN: Fabric research samples are collected from cloth and leather fabrics, to use and examined when writing research papers or assembling research data. -->
+  <FabricResearchSamplesExpertRecipe.description>Образцы ткани, полученные из текстиля и кожи. Используются при написании исследовательских работ или сборке исследовательских данных.</FabricResearchSamplesExpertRecipe.description>
+  <!-- EN: Collecting Fabric Research Samples. -->
+  <FabricResearchSamplesExpertRecipe.jobString>Собирает образцы ткани.</FabricResearchSamplesExpertRecipe.jobString>
+  
+  <!-- EN: Collect Fabric Research Samples -->
+  <FabricResearchSamplesRecipe.label>собрать образцы ткани</FabricResearchSamplesRecipe.label>
+  <!-- EN: Fabric research samples are collected from cloth and leather fabrics, to use and examined when writing research papers or assembling research data. -->
+  <FabricResearchSamplesRecipe.description>Образцы ткани, полученные из текстиля и кожи. Используются при написании исследовательских работ или сборке исследовательских данных.</FabricResearchSamplesRecipe.description>
+  <!-- EN: Collecting Fabric Research Samples. -->
+  <FabricResearchSamplesRecipe.jobString>Собирает образцы ткани.</FabricResearchSamplesRecipe.jobString>
+  
+  <!-- EN: Expert - Collect Metallic Research Samples x2 -->
+  <MetallicResearchSamplesExpertRecipe.label>собрать образцы металлов x2</MetallicResearchSamplesExpertRecipe.label>
+  <!-- EN: Metallic research samples are collected from metallic resources, to use and examined when writing research papers or assembling research data. -->
+  <MetallicResearchSamplesExpertRecipe.description>Образцы металлов, полученные путем сбора разной металлической руды. Используются при написании исследовательских работ или сборке исследовательских данных.</MetallicResearchSamplesExpertRecipe.description>
+  <!-- EN: Collecting Metallic Research Samples. -->
+  <MetallicResearchSamplesExpertRecipe.jobString>Собирает образцы металла.</MetallicResearchSamplesExpertRecipe.jobString>
+  
+  <!-- EN: Collect Metallic Research Samples -->
+  <MetallicResearchSamplesRecipe.label>собрать образцы металлов</MetallicResearchSamplesRecipe.label>
+  <!-- EN: Metallic research samples are collected from metallic resources, to use and examined when writing research papers or assembling research data. -->
+  <MetallicResearchSamplesRecipe.description>Образцы металлов, полученные путем сбора разной металлической руды. Используются при написании исследовательских работ или сборке исследовательских данных.</MetallicResearchSamplesRecipe.description>
+  <!-- EN: Collecting Metallic Research Samples. -->
+  <MetallicResearchSamplesRecipe.jobString>Собирает образцы металла.</MetallicResearchSamplesRecipe.jobString>
+  
+  <!-- EN: Expert - Collect Organic Research Samples x2 -->
+  <OrganicResearchSamplesExpertRecipe.label>собрать образцы органики x2</OrganicResearchSamplesExpertRecipe.label>
+  <!-- EN: Organic Research Samples are collected from organic nutrition, to use and examined when writing research papers or assembling research data. -->
+  <OrganicResearchSamplesExpertRecipe.description>Образцы органики, собранные из различного биоматериала. Используются при написании исследовательских работ или сборке исследовательских данных.</OrganicResearchSamplesExpertRecipe.description>
+  <!-- EN: Collecting Organic Research Samples. -->
+  <OrganicResearchSamplesExpertRecipe.jobString>Собирает образцы органики.</OrganicResearchSamplesExpertRecipe.jobString>
+  
+  <!-- EN: Collect Organic Research Samples -->
+  <OrganicResearchSamplesRecipe.label>собрать образцы органики</OrganicResearchSamplesRecipe.label>
+  <!-- EN: Organic research samples are collected from organic nutrition, to use and examined when writing research papers or assembling research data. -->
+  <OrganicResearchSamplesRecipe.description>Образцы органики, собранные из различного биоматериала. Используются при написании исследовательских работ или сборке исследовательских данных.</OrganicResearchSamplesRecipe.description>
+  <!-- EN: Collecting Organic Research Samples. -->
+  <OrganicResearchSamplesRecipe.jobString>Собирает образцы органики.</OrganicResearchSamplesRecipe.jobString>
+  
+</LanguageData>
