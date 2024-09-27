@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Assemble Analyzer Data -->
+  <AnalyzerDataRecipe.label>собрать аналитические данные</AnalyzerDataRecipe.label>
+  <!-- EN: Analyzer Data are required for the multi-analyzer to function. Its expansive, and use gold and all 4 types og research samples.\n\nAnalyzer Data last 3 days when being researched at the multi-analyzer. -->
+  <AnalyzerDataRecipe.description>Аналитические данные необходимы для работы мультианализаторов. Их создание обходится довольно дорого: требуются золото и все 4 типа образцов для исследований\n\nАналитических данных хватает на 3 дня работы мультианализатора.</AnalyzerDataRecipe.description>
+  <!-- EN: Assembling Analyzer Data. -->
+  <AnalyzerDataRecipe.jobString>Собирает аналитические данные.</AnalyzerDataRecipe.jobString>
+  
+  <!-- EN: Extract Archotech Data -->
+  <ArchotechDataRecipe.label>извлечь данные архотеков</ArchotechDataRecipe.label>
+  <!-- EN: Archotech data can only be found, rewarded, or extracted from rare artifacts. Archotech data are required for the archotech analyzer to function when doing research.\n\nArchotech data last 3 days when being researched at the archotech analyzer. -->
+  <ArchotechDataRecipe.description>Данные архотеков нельзя создать, их можно лишь найти, получить в награду или извлечь из редких артефактов архотеков. Данные архотеков нужны для работы архоанализаторов.\n\nДанных архотеков хватает на 3 дня работы архоанализатора.</ArchotechDataRecipe.description>
+  <!-- EN: Extracting Archotech Data. -->
+  <ArchotechDataRecipe.jobString>Извлекает данные архотеков.</ArchotechDataRecipe.jobString>
+  
+  <!-- EN: Assemble Research Data -->
+  <ResearchDataRecipe.label>собрать исследовательские данные</ResearchDataRecipe.label>
+  <!-- EN: Research Data are used for high-tech research and is Assemble with steel, silver and all 3 basic research samples.\n\nResearch data last 24 hours when doing high-tech research. -->
+  <ResearchDataRecipe.description>Исследовательские данные используются в высокотехнологичных исследованиях и собираются из стали, серебра и всех трёх базовых типов образцов для исследований.\n\nИсследовательских данных хватает на 24 часа высокотехнологичных исследований.</ResearchDataRecipe.description>
+  <!-- EN: Assembling Research Data. -->
+  <ResearchDataRecipe.jobString>Собирает исследовательские данные</ResearchDataRecipe.jobString>
+  
+  <!-- EN: Write Research Papers -->
+  <ResearchPapersRecipe.label>написать исследовательские работы</ResearchPapersRecipe.label>
+  <!-- EN: Research Papers are used for simple research and is written by examining one of the 3 basic research samples.\n\nResearch papers last 24 hours when doing simple research. -->
+  <ResearchPapersRecipe.description>Исследовательские работы используются для простых исследований и пишутся путем анализа одного из трёх базовых типов образцов для исследований.\n\nИсследовательских работ хватает на 24 часа простых исследований.</ResearchPapersRecipe.description>
+  <!-- EN: Writing Research Papers. -->
+  <ResearchPapersRecipe.jobString>Пишет исследовательские работы.</ResearchPapersRecipe.jobString>
+  
+</LanguageData>

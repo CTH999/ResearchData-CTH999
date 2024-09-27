@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Analyzer Data -->
+  <AnalyzerData.label>аналитические данные</AnalyzerData.label>
+  <!-- EN: Analyzer Data are required for the multi-analyzer to function. Its expansive, and use gold and all 4 types og research samples.\n\nAnalyzer Data last 3 days when being researched at the multi-analyzer. -->
+  <AnalyzerData.description>Аналитические данные необходимы для работы мультианализаторов. Их создание обходится довольно дорого: требуются золото и все 4 типа образцов для исследований\n\nАналитических данных хватает на 3 дня работы мультианализатора.</AnalyzerData.description>
+  
+  <!-- EN: Archotech Data -->
+  <ArchotechData.label>данные архотеков</ArchotechData.label>
+  <!-- EN: Archotech data can only be found, rewarded, or extracted from rare artifacts. Archotech data are required for the archotech analyzer to function when doing research.\n\nArchotech data last 3 days when being researched at the archotech analyzer. -->
+  <ArchotechData.description>Данные архотеков нельзя создать, их можно лишь найти, получить в награду или извлечь из редких артефактов архотеков. Данные архотеков нужны для работы архоанализаторов.\n\nДанных архотеков хватает на 3 дня работы архоанализатора.</ArchotechData.description>
+  
+  <!-- EN: Research Data -->
+  <ResearchData.label>исследовательские данные</ResearchData.label>
+  <!-- EN: Research Data are used for high-tech research and is Assemble with steel, silver and all 3 basic research samples.\n\nResearch data last 24 hours when doing high-tech research. -->
+  <ResearchData.description>Исследовательские данные используются в высокотехнологичных исследованиях и собираются из стали, серебра и всех трёх базовых типов образцов для исследований.\n\nИсследовательских данных хватает на 24 часа высокотехнологичных исследований.</ResearchData.description>
+  
+  <!-- EN: Research Papers -->
+  <ResearchPapers.label>исследовательские работы</ResearchPapers.label>
+  <!-- EN: Research Papers are used for simple research and is written by examining one of the 3 basic research samples.\n\nResearch papers last 24 hours when doing simple research. -->
+  <ResearchPapers.description>Исследовательские работы используются для простых исследований и пишутся путем анализа одного из трёх базовых типов образцов для исследований.\n\nИсследовательских работ хватает на 24 часа простых исследований.</ResearchPapers.description>
+  
+</LanguageData>

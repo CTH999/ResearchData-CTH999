@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: craft @ DoResearchSampleBench -->
+  <DoResearchSampleBench.label>собирать</DoResearchSampleBench.label>
+  <!-- EN: Crafting at -->
+  <DoResearchSampleBench.gerund>собирать на</DoResearchSampleBench.gerund>
+  <!-- EN: Craft -->
+  <DoResearchSampleBench.verb>собирать</DoResearchSampleBench.verb>
+  
+</LanguageData>
