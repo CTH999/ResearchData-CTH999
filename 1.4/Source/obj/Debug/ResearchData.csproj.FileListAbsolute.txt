@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\KK_ResearchData\Assemblies\ResearchData.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\KK_ResearchData\Source\obj\Debug\ResearchData.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\KK_ResearchData\Source\obj\Debug\ResearchData.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\KK_ResearchData\Source\obj\Debug\ResearchData.dll

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- ThingDef -->
+<LanguageData>
+  <!-- EN: Organic Research Samples -->
+  <OrganicResearchSamples.label>生物研究樣本</OrganicResearchSamples.label>
+  <!-- EN: Organic research samples are collected from organic nutrition, to use and examined when writing research papers or assembling research data. -->
+  <OrganicResearchSamples.description>生物研究樣本是從生物營養質中收集的，在撰寫研究論文或彙編研究數據時使用和查閱。 </OrganicResearchSamples.description>
+  <!-- EN: Metallic Research Samples -->
+  <MetallicResearchSamples.label>金屬研究樣本</MetallicResearchSamples.label>
+  <!-- EN: Metallic research samples are collected from metallic resources, to use and examined when writing research papers or assembling research data. -->
+  <MetallicResearchSamples.description>金屬研究樣本是從金屬資源中收集的，在撰寫研究論文或彙編研究數據時使用和查閱。 </MetallicResearchSamples.description>
+  <!-- EN: Fabric Research Samples -->
+  <FabricResearchSamples.label>織物研究樣本</FabricResearchSamples.label>
+  <!-- EN: Fabric research samples are collected from cloth and leather fabrics, to use and examined when writing research papers or assembling research data. -->
+  <FabricResearchSamples.description>織物研究樣本是從布料和皮革織物中收集的，在撰寫研究論文或彙編研究數據時使用和查閱。 </FabricResearchSamples.description>
+  <!-- EN: Component Research Samples -->
+  <ComponentResearchSamples.label>零件研究樣本</ComponentResearchSamples.label>
+  <!-- EN: Component research samples are collected from Industrial components, to use and examined when assembling research data. -->
+  <ComponentResearchSamples.description>零件研究樣本是從工業零件中收集的，在彙編研究數據時使用和查閱。 </ComponentResearchSamples.description>
+</LanguageData>
