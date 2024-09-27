@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--============ Royalty DLC - StockGenerators =================-->
+  	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+
+<!--============ Research Paper - StockGenerator =================-->
+	<li Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Empire_Standard" or defName="Empire_Caravan_TraderGeneral" or defName="Orbital_Empire"]/stockGenerators</xpath>
+		<value>	
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ResearchPapers</thingDef>
+				<countRange>3~7</countRange>
+			</li>			
+		</value>
+	</li>
+	
+<!--============ Research Data - StockGenerator =================-->
+	<li Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Empire_Standard" or defName="Empire_Caravan_TraderGeneral" or defName="Orbital_Empire"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ResearchData</thingDef>
+				<countRange>1~4</countRange>
+			</li>			
+		</value>
+	</li>
+	
+<!--============ Analyzer Data - StockGenerator =================-->
+	<li Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Empire_Standard" or defName="Empire_Caravan_TraderGeneral" or defName="Orbital_Empire"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>AnalyzerData</thingDef>
+				<countRange>0~2</countRange>
+			</li>			
+		</value>
+	</li>
+	
+<!--============ Archotech Data - StockGenerator =================-->
+	<li Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Empire_Standard" or defName="Empire_Caravan_TraderGeneral" or defName="Orbital_Empire"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ArchotechData</thingDef>
+				<countRange>0~1</countRange>
+			</li>			
+		</value>
+	</li>
+	
+<!--============ Research Samples Basic - StockGenerator =================-->
+	<li Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Empire_Standard" or defName="Empire_Caravan_TraderGeneral" or defName="Orbital_Empire"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OrganicResearchSamples</thingDef>
+				<countRange>1~6</countRange>
+			</li>	
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MetallicResearchSamples</thingDef>
+				<countRange>1~6</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>FabricResearchSamples</thingDef>
+				<countRange>1~6</countRange>
+			</li>			
+		</value>
+	</li>
+	
+<!--============ Research Samples Component - StockGenerator =================-->
+	<li Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Empire_Standard" or defName="Empire_Caravan_TraderGeneral" or defName="Orbital_Empire"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentResearchSamples</thingDef>
+				<countRange>1~4</countRange>
+			</li>				
+		</value>
+	</li>
+	
+<!--============ Schematics - StockGenerator =================-->
+	<li Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Base_Empire_Standard" or defName="Empire_Caravan_TraderGeneral" or defName="Orbital_Empire"]/stockGenerators</xpath>
+		<value>		
+			<li Class="StockGenerator_Category">
+				<categoryDef>Schematics</categoryDef>
+				<thingDefCountRange>0~3</thingDefCountRange>
+				<totalPriceRange>160~320</totalPriceRange>
+			</li>			
+		</value>
+	</li>
+	
+ 		</operations>
+		</match>
+	</Operation> 
+  
+</Patch>
